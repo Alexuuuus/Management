@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Context antiJARLocking="true" path="/Management">
+    <Resource auth="Container" 
+              driverClassName="com.mysql.jdbc.Driver" 
+              maxActive="50" 
+              maxIdle="30" 
+              maxWait="10000" 
+              name="jdbc/management" 
+              password="bitnami" 
+              type="javax.sql.DataSource" 
+              url="jdbc:mysql://localhost/management" 
+              username="root" 
+              validationQuery="SELECT 1 FROM DUAL"/>
+</Context>

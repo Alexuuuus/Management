@@ -1,0 +1,95 @@
+/* ==========================================================================
+   APP custom styles. Rafael Aznar.
+   ========================================================================== */
+body {
+    background-color: #F8F8F8;
+    padding-top: 60px;
+    padding-bottom: 40px;
+    background-repeat: repeat;
+}
+.btn-toolbar {
+    margin-top: 0px;
+    margin-bottom: 0x;
+}
+.btn-toolbar {
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+.table-condensed th, .table-condensed td {
+    padding-bottom: 0px;
+    padding-top: 0px;
+}
+.table th, .table td {
+    vertical-align:middle;
+}
+.table th{
+    background-color: white;
+}
+.well{
+    background-color: #FFFFFF;
+}
+#loginForm{
+    margin:0 auto;
+    width: 50%;
+}
+.nav-list>.active>a, .nav-list>.active>a:hover, .nav-list>.active>a:focus {
+    background-color: gray;
+}
+.navbar-inverse .navbar-inner {
+    background-color:  white;
+    background-image: none;
+    border-color: #e3e3e3;;
+    border-bottom-width: 5px;
+}
+.navbar-inverse .nav .active>a, .navbar-inverse .nav .active>a:hover, .navbar-inverse .nav .active>a:focus{
+    background-color:grey;
+}
+.navbar-inverse .brand, .navbar-inverse .nav>li>a {
+    text-shadow: none;
+}
+.navbar-inverse .brand:hover, .navbar-inverse .nav>li>a:hover, .navbar-inverse .brand:focus, .navbar-inverse .nav>li>a:focus {
+    color:#08c;
+
+}
+.dropdown-menu>li>a:hover, .dropdown-menu>li>a:focus, .dropdown-submenu:hover>a, .dropdown-submenu:focus>a {
+    background-color: grey;
+}    
+.caret, .caret:hover {
+    color:#08c;
+}
+.navbar-inverse .nav li.dropdown.open>.dropdown-toggle, .navbar-inverse .nav li.dropdown.active>.dropdown-toggle, .navbar-inverse .nav li.dropdown.open.active>.dropdown-toggle {
+    background-color: grey;
+    background-image: none;
+}     
+.dropdown-menu>li>a:hover {
+    background-color: grey;
+    background-image: none;
+}
+.navbar-inverse .navbar-link:hover, .navbar-inverse .navbar-link:focus {
+    color:#08c;
+}
+hr {    
+    border-top:  2px solid #e5e5e5;;
+    border-bottom: 2px solid #fff;
+}
+.input_disabled {
+    disabled:true;
+} 
+
+.input_resize{
+    width: 95%;
+}
+
+label.valid {
+    width: 24px;
+    height: 24px;
+    background: url(../img/tick.png) center center no-repeat;
+    display: inline-block;
+    text-indent: -9999px;
+}
+label.error {
+    font-weight: bold;
+    color: red;
+    padding: 2px 8px;
+    margin-top: 2px;
+}
